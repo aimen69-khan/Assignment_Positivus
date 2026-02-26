@@ -1,0 +1,173 @@
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .brand-logos {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .services .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .cta-container {
+    flex-direction: column;
+    text-align: center;
+    }
+    .cta-graphics {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .process-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-image {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-top,
+  .footer-middle,
+  .footer-bottom {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .newsletter {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .services .container {
+    grid-template-columns: 1fr;
+  }
+
+  .case-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .testimonial-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-image {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footer-top,
+  .footer-middle,
+  .footer-bottom {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .newsletter {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .cta-container,
+  .cta-box {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .process-card {
+    padding: 20px;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-wrapper {
+    padding: 40px 20px;
+  }
+
+  .contact-container {
+    padding: 30px 20px;
+  }
+
+  .footer-container {
+    padding: 30px 20px;
+  }
+
+  .newsletter input {
+    width: 100%;
+  }
+
+}
