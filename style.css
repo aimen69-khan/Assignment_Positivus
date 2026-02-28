@@ -13,13 +13,29 @@ html{
     margin: auto;
 }
 
-.brand-logos, a{
-    text-decoration: none;
-    color: black;
+.child-1{
+    display: inline-block;
+    margin-left: 100px;
 }
-
-.brand-logos, a:hover {
-    color: #a3e635;
+.child-2{
+    display: inline-block;
+    margin-left: 100px;
+}
+.child-3{
+    display: inline-block;
+    margin-left: 100px;
+}
+.child-4{
+    display: inline-block;
+    margin-left: 100px;
+}
+.child-5{
+    display: inline-block;
+    margin-left: 100px;
+}
+.child-6{
+    display: inline-block;
+    margin-left: 100px;
 }
 
 .header {
